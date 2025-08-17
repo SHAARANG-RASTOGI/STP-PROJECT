@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+
+body{
+    font-size:1.4rem;
+}
+
+/* 1rem=16px
+1rem=10px (after font-size: 62.5%) */
+
+header{
+    position: sticky;
+    top:0px;
+    background-color: #f1f0f0;
+}
+
+nav{
+    padding:1rem;
+    display: flex;
+    justify-content: space-between;
+    max-width:1200px;
+    margin:0 auto;
+}
+
+nav ul{
+    display: flex;
+    gap:2.3rem;
+
+}
+
+nav ul li{
+    font-size:2.5rem;
+    border-bottom: transparent 2px solid;
+}
+
+nav ul li:hover{
+    border-bottom:black 2px solid;
+}
+
+h1{
+    font-size: 2.5rem;
+    
+}
+
+main{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+/* hero section */
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content h1{
+    font-size: 8rem;
+    line-height: 1.2;
+}
+
+.hero-content h4{
+    font-size:2.5rem;
+    font-weight: 300;
+
+}
+
+.hero-image img{
+    border-radius: 5rem;
+}
+
+/* long-card section */
+
+.h-card{
+    display:flex;
+    margin:8rem 1rem;
+    box-shadow:0px 5px 4px rgb(0, 0, 0);
+    align-items: center;
+    border:1px solid #0f0f0f;
+    border-radius: 0.5rem;
+    overflow:hidden;   /*isse image ke corners bhi round hojate hai*/
+    
+}
+
+.card-content{
+    
+    padding:3rem;
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.status{
+    display: flex;
+    justify-content: space-between;
+}
+
+.read-button{
+    all:unset;
+    font-weight: 600;
+    border-bottom:1px solid transparent;
+    
+
+}
+
+.read-button:hover{
+    border-bottom:1px solid #ccc;
+}
+
+.card-content h2{
+    font-size: 3rem;
+    
+}
+
+.h-card img{
+    
+    height:100%;
+    width:100%;
+}
+
+/*v card*/
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    /* grid-template-columns: repeat(auto-fit,minmax(320px,1fr)); for responsive*/
+    
+}
+
+.v-card{
+    max-width:320px;
+    box-shadow:0px 5px 4px rgb(194, 192, 192);
+    align-items: center;
+    border:1px solid #e2e2e2;
+    border-radius: 0.5rem;
+    overflow:hidden;   /*isse image ke corners bhi round hojate hai*/
+    
+}
+
+.v-card img{
+    height:100%;
+    width:100%;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:1200px;
+    padding:1rem;
+    margin:0 auto;
+    border-top:1px solid #ccc;
+    
+}
+
+footer ul{
+    display: flex;
+    gap:40px;
+}
+
+footer ul li{
+    font-size: 3rem;
+}
+
+footer i:hover{
+    transform:scale(1.2);
+
+}
+
+/* post page styling */
+
+.blog-status{
+    display:flex;
+    gap:3rem;
+    margin-left:12rem;
+    font-size: 2rem;
+    
+
+}
+
+.post-container{
+    max-width:1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top:30px;
+    padding-bottom: 30px;
+    gap:1.5rem;
+    border-bottom:1px solid #ccc;
+    
+}
+
+.post-container img{
+    width:80%;
+    height:80%;
+    align-self: center;
+    
+}
+
+.blog-heading h1{
+    margin-left:12rem;
+    font-size:5rem;
+    color:#3a3939;
+}
+
+.blog-content{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    justify-content: space-between;
+    padding-top: 60px;
+    margin:0 auto;
+    padding-bottom: 60px;
+    
+}
+
+.blog-content p{
+    font-size: 2rem;
+    font-weight:500;
+    color:#828181;
+    max-width:1200px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
